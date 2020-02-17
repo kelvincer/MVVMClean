@@ -1,4 +1,4 @@
-package com.home.mvvmclean
+package com.home.mvvmclean.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -6,9 +6,7 @@ import android.view.View
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.google.android.material.snackbar.Snackbar
-import com.home.mvvmclean.response.PlaceApiResponse
-import com.home.mvvmclean.ui.ListAdapter
-import com.home.mvvmclean.ui.MainViewModel
+import com.home.mvvmclean.R
 import kotlinx.android.synthetic.main.activity_search.*
 
 class MainActivity : AppCompatActivity() {
